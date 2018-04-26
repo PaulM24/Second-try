@@ -1,0 +1,100 @@
+body, html {
+	height: 100%;
+	margin: 0px;
+}
+
+.topbar {
+	height: 10%;
+	background-color: rgb(0	0 0);
+	color: rgb(212 154 106);
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+	font-size: 2.5vmax;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.middle {
+	background-image: url("images/girlbehind.JPG");
+	height: 70%;
+	background-position: top;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+}
+
+img {
+	width: 15vmin;
+	height: 15vmin;
+	margin-bottom: 1vmax;
+	border: 2px solid rgb(102 154 153);
+	border-radius: 8px;
+}
+
+.left, .right {
+	padding: 2vmax 5vmin;
+	width:50%;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.left {
+	align-items: flex-start;
+}
+
+.right {
+	align-items: flex-end;
+}
+
+.bottombar {
+	height: 20%;
+	background-color: rgb(0	0 0);
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content:center;
+	color: rgb(102 154 153);
+	font-family: 'Dosis', sans-serif;
+}
+
+.btn, .btn-primary {
+	font-size: 2.2vmax;
+	font-family: 'Dosis' sans-serif;
+	background-color: rgb(212 154 106);
+	color: rgb(255 255 255);
+	border: 2px solid rgb(212 154 106);
+	border-radius: 2rem;
+	height:40%;
+	margin:0px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align: center;
+}
+
+.btn-primary:hover {
+	background-color: rgb(189 127 76);
+	border: 2px solid rgb(13 77 77);
+	color: rgb(0 0 0);
+	margin: 0px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(76, 127, 126);
+/*    border-color: rgb(102 154 153);
+*/}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0rem rgb(0 0 0);
+}
