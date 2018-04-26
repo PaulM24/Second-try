@@ -13,7 +13,7 @@ body, html {
 	vertical-align: middle;
 	margin: auto;
 	text-align: center;
-	font-size: 100%;
+	font-size: 120%;
 	font-size: 2.5vmax;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -72,7 +72,7 @@ img {
 }
 
 .btn, .btn-primary {
-	font-size: 2.2vh;
+	font-size: 2.5vh;
 	font-size: 2.2vmax;
 	font-family: 'Dosis' sans-serif;
 	background-color: rgb(212,154,106);
