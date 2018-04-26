@@ -92,8 +92,7 @@ img {
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
     background-color: rgb(76, 127, 126);
-/*    border-color: rgb(102 154 153);
-*/}
+}
 
 .btn-primary.focus, .btn-primary:focus {
     box-shadow: 0 0 0 0rem rgb(0 0 0);
